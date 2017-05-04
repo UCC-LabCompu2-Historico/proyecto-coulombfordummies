@@ -104,6 +104,9 @@ h2{
 #deadpool{
     margin-left: 80px;
 }
+#columna1{
+    float: left;
+}
 #columna2{
     margin-left: 20px;
     float: left;
