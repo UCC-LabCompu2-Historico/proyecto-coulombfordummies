@@ -1,3 +1,10 @@
+header{
+    text-align: center;
+}
+h1{
+    font-family: Arial, cursive;
+    color: #d4eaff;
+}
 body{
     background-color: rgb(0,0,255);
     margin: auto;
@@ -12,7 +19,7 @@ body{
     width: 343px;
     text-align: center;
 }
-h1{
+h3{
     font-size: 20px;
     color: #d4eaff;
 }
@@ -96,4 +103,12 @@ h2{
 }
 #deadpool{
     margin-left: 80px;
+}
+#columna2{
+    margin-left: 20px;
+    float: left;
+}
+#columna3{
+    margin-left: 625px;
+    width: 221px;
 }

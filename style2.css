@@ -41,3 +41,6 @@ body{
     padding: 10px;
     border-radius: 12px;
 }
+input{
+    width: 60px;
+}
