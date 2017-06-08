@@ -11,8 +11,8 @@
     <meta name="keywords" content="html, Coulomb, Fisica">
 </head>
 
-<body>
-    <div>
+<body onload="draw_2arcs()">
+    <div id="top">
         <a href="alumnos.html" class="boton">Alumnos</a>
         <a href="index.html" class="boton">Index</a>
         <a href="index.html">
@@ -36,7 +36,8 @@
             </select>
         </div>
         <div class="canvas">
-            <canvas>
+            <canvas id="myCanvas" height="600" width="600">
+                Tu navegador no soporta el tag de HTML5 canvas.
             </canvas>
         </div>
     </div>

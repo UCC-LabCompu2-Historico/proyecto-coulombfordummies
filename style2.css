@@ -28,7 +28,6 @@ body{
    margin-left: 493px;
 }
 .interaccion{
-
     margin: auto;
     border: 2px solid #d4eaff;
     margin-top: 60px;
@@ -40,10 +39,15 @@ body{
     margin-left: 330px;
     height: 600px;
     width: 600px;
-    border: 2px solid #d4eaff;
-    padding: 10px;
+}
+canvas{
+    background-color: #d4eaff;
     border-radius: 12px;
 }
 input{
     width: 60px;
+}
+#top{
+    margin: auto;
+    width: 955px;
 }
