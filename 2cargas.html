@@ -11,7 +11,7 @@
     <meta name="keywords" content="html, Coulomb, Fisica">
 </head>
 
-<body onload="draw_2arcs()">
+<body>
     <div id="top">
         <a href="alumnos.html" class="boton">Alumnos</a>
         <a href="index.html" class="boton">Index</a>
@@ -23,17 +23,23 @@
         <div class="inputs">
             Ingrese los valores de las cargas (en Coulombs) y su respectiva distancia: <br><br>
             <label for="carga1">Carga 1: </label>
-            <input type="number" name="Carga1" id="carga1"> <br>
+                <input type="text" name="Carga1" id="carga1"> <br>
 
             <label for="carga2">Carga 2: </label>
-            <input type="number" name="Carga2" id="carga2"> <br><br>
+            <input type="text" name="Carga2" id="carga2"> <br><br>
 
             <label for="distancia">Distancia 1-2: </label>
-            <input type="number" name="Distancia" id="distancia">
-            <select name="tipodistancia" id="distancia">
+            <input type="text" name="Distancia" id="distancia">
+            <select name="tipodistancia" id="tipodistancia">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select>
+            <div style="margin-top: 20px">
+                <a onclick="draw_2arcs()" id="calcu" class="boton2">Calcular!</a>
+            </div>
+            <div style="margin-top: 20px">
+                resultado
+            </div>
         </div>
         <div class="canvas">
             <canvas id="myCanvas" height="600" width="600">
