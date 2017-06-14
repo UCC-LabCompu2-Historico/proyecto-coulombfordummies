@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34198954-c076-4ce1-9239-e11d9c727299" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2cargas.html" afterPath="$PROJECT_DIR$/2cargas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cargas.html" afterPath="$PROJECT_DIR$/3cargas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4cargas.html" afterPath="$PROJECT_DIR$/4cargas.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones.js" afterPath="$PROJECT_DIR$/Funciones.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style2.css" afterPath="$PROJECT_DIR$/style2.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="Funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="358">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -296,12 +291,12 @@
       <workItem from="1493862932711" duration="76000" />
       <workItem from="1496853453519" duration="1321000" />
       <workItem from="1496922438217" duration="3985000" />
-      <workItem from="1497456178225" duration="3105000" />
+      <workItem from="1497456178225" duration="3745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39005000" />
+    <option name="totallyTimeSpent" value="39645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="358">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
