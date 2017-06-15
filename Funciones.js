@@ -1,5 +1,5 @@
 /**
- * Created by Alumno on 07/06/2017.
+ * Dibuja las cargas para la pagina de 2cargas de acuerdo a los valores ingresados por el usuario
  */
 function draw_2arcs() {
     var r = 60;
@@ -11,8 +11,9 @@ function draw_2arcs() {
     var color;
     var color2;
 
+    color =colorcarga("carga1");
+    color2 =colorcarga("carga2");
 
-    color =calcular("carga1")
     ctx.lineWidth = 8;
     if (color == 1) {
         ctx.strokeStyle = "blue";
@@ -38,14 +39,36 @@ function draw_2arcs() {
     ctx2.stroke();
 }
 
-function calcular(id) {
+/**
+ * Verifica si el usuario ingreso un numero negativo o positivo y devuelvo 1 o 0 respectivamente
+ * @param id
+ */
+
+function colorcarga(id) {
     var d1;
     var c1 = document.getElementById(id).value;
     if (Number(c1) < 0) {
         d1 = 1;
-    } else {
+    }
+    else {
         d1 = 0;
     }
     return d1;
 }
 
+/**
+ * Verifica que el dato ingresado no sea un caracter o 0, siendo ese el caso borra el dato ingresado
+ * @param id
+ */
+
+function verificarinput(id) {
+    var v=document.getElementById(id).value;
+    if(isNaN(v)){
+        alert("Se ingreso un valor invalido en " + id);
+        document.getElementById(id).value="";
+    }
+    else if(v==0) {
+        alert("Las cargas/distancias no deben ser iguales a cero");
+        document.getElementById(id).value="";
+    }
+}

@@ -23,19 +23,19 @@
         <div class="inputs">
             Ingrese los valores de las cargas (en Coulombs) y su respectiva distancia: <br><br>
             <label for="carga1">Carga 1: </label>
-                <input type="text" name="Carga1" id="carga1"> <br>
+                <input type="text" name="Carga1" id="carga1" onchange="verificarinput(this.id)"> <br>
 
             <label for="carga2">Carga 2: </label>
-            <input type="text" name="Carga2" id="carga2"> <br><br>
+            <input type="text" name="Carga2" id="carga2" onchange="verificarinput(this.id)"> <br><br>
 
             <label for="distancia">Distancia 1-2: </label>
-            <input type="text" name="Distancia" id="distancia">
+            <input type="text" name="distancia" id="distancia" onchange="verificarinput(this.id)">
             <select name="tipodistancia" id="tipodistancia">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select>
             <div style="margin-top: 20px">
-                <a onclick="draw_2arcs()" id="calcu" class="boton2">Calcular!</a>
+                <a onclick="draw_2arcs();" id="calcu" class="boton2">Calcular!</a>
             </div>
             <div style="margin-top: 20px">
                 resultado
