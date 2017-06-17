@@ -23,44 +23,74 @@
         <div class="inputs">
             Ingrese los valores de las cargas (en Coulombs) y sus respectivas distancias: <br><br>
             <label for="carga1">Carga 1: </label>
-            <input type="text" name="Carga1" id="carga1"> <br>
+            <input type="text" name="Carga1" id="carga1" onchange="verificarinput(this.id)">
+            <select name="medidacarga1" id="medidacarga1">
+                <option value="C">C</option>
+                <option value="mC">mC</option>
+                <option value="uC">&mu;C</option>
+            </select> <br>
 
             <label for="carga2">Carga 2: </label>
-            <input type="text" name="Carga2" id="carga2"> <br>
+            <input type="text" name="Carga2" id="carga2" onchange="verificarinput(this.id)">
+            <select name="medidacarga2" id="medidacarga2">
+                <option value="C">C</option>
+                <option value="mC">mC</option>
+                <option value="uC">&mu;C</option>
+            </select> <br>
 
             <label for="carga3">Carga 3: </label>
-            <input type="text" name="Carga3" id="carga3"> <br>
+            <input type="text" name="Carga3" id="carga3" onchange="verificarinput(this.id)">
+            <select name="medidacarga3" id="medidacarga3">
+                <option value="C">C</option>
+                <option value="mC">mC</option>
+                <option value="uC">&mu;C</option>
+            </select> <br>
 
             <label for="carga4">Carga 4: </label>
-            <input type="text" name="Carga4" id="carga4"> <br><br>
+            <input type="text" name="Carga4" id="carga4" onchange="verificarinput(this.id)">
+            <select name="medidacarga4" id="medidacarga4">
+                <option value="C">C</option>
+                <option value="mC">mC</option>
+                <option value="uC">&mu;C</option>
+            </select> <br><br>
 
             <label for="distancia12">Distancia 1-2: </label>
-            <input type="text" name="Distancia12" id="distancia12">
+            <input type="text" name="distancia12" id="distancia12" onchange="verificarinput(this.id)">
             <select name="tipodistancia12" id="tipodistancia12">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select> <br>
 
             <label for="distancia23">Distancia 2-3: </label>
-            <input type="text" name="Distancia23" id="distancia23">
+            <input type="text" name="distancia23" id="distancia23" onchange="verificarinput(this.id)">
             <select name="tipodistancia23" id="tipodistancia23">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select> <br>
 
             <label for="distancia34">Distancia 3-4: </label>
-            <input type="text" name="Distancia34" id="distancia34">
+            <input type="text" name="distancia34" id="distancia34" onchange="verificarinput(this.id)">
             <select name="tipodistancia34" id="tipodistancia34">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select> <br>
 
             <label for="distancia41">Distancia 4-1: </label>
-            <input type="text" name="Distancia41" id="distancia41">
+            <input type="text" name="distancia41" id="distancia41" onchange="verificarinput(this.id)">
             <select name="tipodistancia41" id="tipodistancia41">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select>
+
+            <div style="margin-top: 20px">
+                <a onclick="calculos2();" id="calcu" class="boton2">Calcular!</a>
+            </div>
+            <div>
+                <a onclick="reset();" class="boton2">Resetear</a>
+            </div>
+            <div style="margin-top: 60px">
+                <output id="resultado"></output>
+            </div>
         </div>
         <div class="canvas">
             <canvas id="myCanvas" height="600" width="600">
