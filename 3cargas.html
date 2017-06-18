@@ -46,32 +46,18 @@
                 <option value="uC">&mu;C</option>
             </select> <br><br>
 
-            <label for="distancia12">Distancia 1-2: </label>
-            <input type="text" name="distancia12" id="distancia12" onchange="verificarinput(this.id)">
-            <select name="tipodistancia12" id="tipodistancia12">
+            <label for="distancia">Distancia: </label>
+            <input type="text" name="distancia" id="distancia" onchange="verificarinput(this.id)">
+            <select name="tipodistancia" id="tipodistancia">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select> <br>
-
-            <label for="distancia23">Distancia 2-3: </label>
-            <input type="text" name="distancia23" id="distancia23" onchange="verificarinput(this.id)">
-            <select name="tipodistancia23" id="tipodistancia23">
-                <option value="m">m</option>
-                <option value="cm">cm</option>
-            </select> <br>
-
-            <label for="distancia31">Distancia 3-1: </label>
-            <input type="text" name="distancia31" id="distancia31" onchange="verificarinput(this.id)">
-            <select name="tipodistancia31" id="tipodistancia31">
-                <option value="m">m</option>
-                <option value="cm">cm</option>
-            </select>
 
             <div style="margin-top: 20px">
-                <a onclick="calculos2();" id="calcu" class="boton2">Calcular!</a>
+                <a onclick="calculos3();" id="calcu" class="boton2">Calcular!</a>
             </div>
             <div>
-                <a onclick="reset();" class="boton2">Resetear</a>
+                <a onclick="reset3();" class="boton2">Resetear</a>
             </div>
             <div style="margin-top: 60px">
                 <output id="resultado"></output>
