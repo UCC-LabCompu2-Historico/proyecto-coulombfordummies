@@ -1,8 +1,9 @@
-body{
-    background-color: rgb(0,0,255);
+body {
+    background-color: rgb(0, 0, 255);
     width: 100%;
 }
-.boton{
+
+.boton {
     font-family: Arial, cursive;
     font-size: 12px;
     color: black;
@@ -17,7 +18,8 @@ body{
     float: left;
     text-decoration: none;
 }
-.boton2{
+
+.boton2 {
     font-family: Arial, cursive;
     font-size: 12px;
     color: black;
@@ -31,17 +33,20 @@ body{
     float: left;
     text-decoration: none;
 }
-.inputs{
+
+.inputs {
     font-family: "Comic Sans MS", cursive;
     color: #d4eaff;
     width: 325px;
     float: left;
     text-align: center;
 }
-#logo{
-   margin-left: 493px;
+
+#logo {
+    margin-left: 493px;
 }
-.interaccion{
+
+.interaccion {
     margin: auto;
     border: 2px solid #d4eaff;
     margin-top: 60px;
@@ -49,19 +54,23 @@ body{
     padding: 10px;
     border-radius: 12px;
 }
-.canvas{
+
+.canvas {
     margin-left: 330px;
     height: 600px;
     width: 600px;
 }
-canvas{
+
+canvas {
     background-color: #d4eaff;
     border-radius: 12px;
 }
-input{
+
+input {
     width: 60px;
 }
-#top{
+
+#top {
     margin: auto;
     width: 955px;
 }

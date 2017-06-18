@@ -12,55 +12,62 @@
 </head>
 
 <body>
-    <div id="top">
-        <a href="alumnos.html" class="boton">Alumnos</a>
-        <a href="index.html" class="boton">Index</a>
-        <a href="index.html">
-            <img id="logo" src="imagenes\cfd.png" alt="Logo" width="265" height="150">
-        </a>
-    </div>
-    <div class="interaccion">
-        <div class="inputs">
-            Ingrese los valores de las cargas (en Coulombs) y su respectiva distancia: <br><br>
+<div id="top">
+    <a href="alumnos.html" class="boton">Alumnos</a>
+    <a href="index.html" class="boton">Index</a>
+    <a href="index.html">
+        <img id="logo" src="imagenes\cfd.png" alt="Logo" width="265" height="150">
+    </a>
+</div>
+<div class="interaccion">
+    <div class="inputs">
+        Ingrese los valores de las cargas y su respectiva distancia,
+        el resultado obtenido es la fuerza neta sobre la carga 1.
+        <div style="margin-top: 20px">
             <label for="carga1">Carga 1: </label>
             <input type="text" name="Carga1" id="carga1" onchange="verificarinput(this.id)">
             <select name="medidacarga1" id="medidacarga1">
                 <option value="C">C</option>
                 <option value="mC">mC</option>
                 <option value="uC">&mu;C</option>
-            </select><br>
+            </select>
+        </div>
 
+        <div>
             <label for="carga2">Carga 2: </label>
             <input type="text" name="Carga2" id="carga2" onchange="verificarinput(this.id)">
             <select name="medidacarga2" id="medidacarga2">
                 <option value="C">C</option>
                 <option value="mC">mC</option>
                 <option value="uC">&mu;C</option>
-            </select><br><br>
+            </select>
+        </div>
 
+        <div style="margin-top: 20px">
             <label for="distancia">Distancia 1-2: </label>
             <input type="text" name="distancia" id="distancia" onchange="verificarinput(this.id)">
             <select name="tipodistancia" id="tipodistancia">
                 <option value="m">m</option>
                 <option value="cm">cm</option>
             </select>
-
-            <div style="margin-top: 20px">
-                <a onclick="calculos2();" id="calcu" class="boton2">Calcular!</a>
-            </div>
-            <div>
-                <a onclick="reset2();" class="boton2">Resetear</a>
-            </div>
-            <div style="margin-top: 60px">
-                <output id="resultado"></output>
-            </div>
         </div>
-        <div class="canvas">
-            <canvas id="myCanvas" height="600" width="600">
-                Tu navegador no soporta el tag de HTML5 canvas.
-            </canvas>
+
+        <div style="margin-top: 20px">
+            <a onclick="calculos2();" id="calcu" class="boton2">Calcular!</a>
+        </div>
+        <div>
+            <a onclick="reset2();" class="boton2">Resetear</a>
+        </div>
+        <div style="margin-top: 60px">
+            <output id="resultado"></output>
         </div>
     </div>
+    <div class="canvas">
+        <canvas id="myCanvas" height="600" width="600">
+            Tu navegador no soporta el tag de HTML5 canvas.
+        </canvas>
+    </div>
+</div>
 </body>
 
 </html>

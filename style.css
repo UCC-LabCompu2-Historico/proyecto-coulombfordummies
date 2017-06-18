@@ -1,32 +1,39 @@
-header{
+header {
     text-align: center;
 }
-h1{
+
+h1 {
     font-family: Arial, cursive;
     color: #d4eaff;
 }
-body{
-    background-color: rgb(0,0,255);
+
+body {
+    background-color: rgb(0, 0, 255);
     width: 100%;
 }
-#ucc{
+
+#ucc {
     margin-top: 20px;
     float: left;
 }
-.seleccion{
+
+.seleccion {
     font-family: "Comic Sans MS", cursive;
     width: 343px;
     text-align: center;
 }
-h3{
+
+h3 {
     font-size: 20px;
     color: #d4eaff;
 }
-h2{
+
+h2 {
     font-size: 15px;
     color: #d4eaff;
 }
-.boton{
+
+.boton {
     font-family: Arial, cursive;
     font-size: 20px;
     color: #d4eaff;
@@ -38,12 +45,14 @@ h2{
     padding: 10px 24px;
     text-decoration: none;
 }
-.boton:hover{
-    color: rgb(0,0,255);
+
+.boton:hover {
+    color: rgb(0, 0, 255);
     background-color: #d4eaff;
     text-decoration: none;
 }
-.parrafo{
+
+.parrafo {
     margin-top: 20px;
     font-family: Arial, cursive;
     font-size: 15px;
@@ -55,7 +64,8 @@ h2{
     text-align: justify;
     padding: 5px;
 }
-.boton2{
+
+.boton2 {
     font-family: Arial, cursive;
     font-size: 12px;
     color: black;
@@ -70,7 +80,8 @@ h2{
     text-decoration: none;
     text-align: center;
 }
-.parrafo2{
+
+.parrafo2 {
     margin-top: 20px;
     font-family: Arial, cursive;
     font-size: 15px;
@@ -83,38 +94,58 @@ h2{
     text-align: justify;
     padding: 5px;
 }
-#ley{
+
+#ley {
     float: left;
     width: 231px;
 }
-#coulomb{
+
+#coulomb {
     width: 231px;
     height: 176px;
     margin-top: 20px;
 }
-#profes{
+
+#profes {
     float: right;
     margin-top: 60px;
 }
-#alumnos{
+
+#alumnos {
     float: left;
     margin-top: 60px;
 }
-#deadpool{
+
+#deadpool {
     margin-left: 80px;
 }
-#columna1{
+
+#columna1 {
     float: left;
 }
-#columna2{
+
+#columna2 {
     margin-left: 20px;
     float: left;
 }
-#columna3{
+
+#columna3 {
     margin-left: 625px;
     width: 221px;
 }
-#todo{
+
+#todo {
     margin: auto;
     width: 725px;
+}
+
+.fila {
+    margin: auto;
+    width: 955px;
+}
+
+#cuerpo {
+    margin: auto;
+    margin-top: 60px;
+    width: 955px;
 }
