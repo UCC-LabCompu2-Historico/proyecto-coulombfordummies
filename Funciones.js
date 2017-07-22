@@ -124,8 +124,8 @@ function draw_2circ() {
     var t2 = document.getElementById("medidacarga2").value;
     ctx.font = "28px Arial";
     ctx.textAlign = "center";
-    ctx.fillText(Number(q1) + " " + t1, x, 225);
-    ctx.fillText(Number(q2) + " " + t2, 600 - x, 225);
+    ctx.fillText("Q1= " + Number(q1) + " " + t1, x, 225);
+    ctx.fillText("Q2= " + Number(q2) + " " + t2, 600 - x, 225);
 }
 
 /**
@@ -221,9 +221,9 @@ function draw_3circ() {
     var t3 = document.getElementById("medidacarga3").value;
     ctx.font = "28px Arial";
     ctx.textAlign = "center";
-    ctx.fillText(Number(q1) + " " + t1, x * 2, 100);
-    ctx.fillText(Number(q2) + " " + t2, x, 300);
-    ctx.fillText(Number(q3) + " " + t3, 600 - x, 300);
+    ctx.fillText("Q1= " + Number(q1) + " " + t1, x * 2, 100);
+    ctx.fillText("Q2= " + Number(q2) + " " + t2, x, 300);
+    ctx.fillText("Q3= " + Number(q3) + " " + t3, 600 - x, 300);
 }
 
 /**
@@ -335,10 +335,10 @@ function draw_4circ() {
     var t4 = document.getElementById("medidacarga4").value;
     ctx.font = "28px Arial";
     ctx.textAlign = "center";
-    ctx.fillText(Number(q1) + " " + t1, x, 75);
-    ctx.fillText(Number(q2) + " " + t2, 600 - x, 75);
-    ctx.fillText(Number(q3) + " " + t3, x, 375);
-    ctx.fillText(Number(q4) + " " + t4, 600 - x, 375);
+    ctx.fillText("Q1= " + Number(q1) + " " + t1, x, 75);
+    ctx.fillText("Q2= " + Number(q2) + " " + t2, 600 - x, 75);
+    ctx.fillText("Q3= " + Number(q3) + " " + t3, x, 375);
+    ctx.fillText("Q4= " + Number(q4) + " " + t4, 600 - x, 375);
 }
 
 /**
@@ -364,7 +364,11 @@ function calculos2() {
 
     var fuerza = ke * ((q1 * q2) / (dist * dist));
 
-    document.getElementById("resultado").innerHTML = "F1 = " + fuerza + " N";
+    var k = Math.round(fuerza*10000);
+
+    k=k/10000;
+
+    document.getElementById("resultado").innerHTML = "F1 = " + k + " N";
 }
 
 /**
@@ -486,7 +490,11 @@ function calculos3() {
 
     draw_3circ();
 
-    document.getElementById("resultado").innerHTML = "F1 = " + fuerza + " N";
+    var k = Math.round(fuerza*10000);
+
+    k=k/10000;
+
+    document.getElementById("resultado").innerHTML = "F1 = " + k + " N";
 }
 
 /**
@@ -717,7 +725,11 @@ function calculos4() {
 
     draw_4circ();
 
-    document.getElementById("resultado").innerHTML = "F1 = " + fuerza + " N";
+    var k = Math.round(fuerza*10000);
+
+    k=k/10000;
+
+    document.getElementById("resultado").innerHTML = "F1 = " + k + " N";
 }
 
 /**

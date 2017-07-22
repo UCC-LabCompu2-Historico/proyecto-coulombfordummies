@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34198954-c076-4ce1-9239-e11d9c727299" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2cargas.html" afterPath="$PROJECT_DIR$/2cargas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3cargas.html" afterPath="$PROJECT_DIR$/3cargas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4cargas.html" afterPath="$PROJECT_DIR$/4cargas.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones.js" afterPath="$PROJECT_DIR$/Funciones.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alumnos.html" afterPath="$PROJECT_DIR$/alumnos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style2.css" afterPath="$PROJECT_DIR$/style2.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,20 +24,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Funciones.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Funciones.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+            <state relative-caret-position="1592">
+              <caret line="348" column="21" lean-forward="false" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
               <folding>
-                <element signature="n#!!block;n#draw_2circ#0" expanded="false" />
                 <element signature="n#!!block;n#draw_3circ#0" expanded="false" />
                 <element signature="n#!!block;n#draw_4circ#0" expanded="false" />
                 <element signature="n#!!block;n#calculos2#0" expanded="false" />
                 <element signature="n#!!block;n#calculos3#0" expanded="false" />
                 <element signature="n#!!block;n#calculos4#0" expanded="false" />
                 <element signature="n#!!block;n#colorcarga#0" expanded="false" />
-                <element signature="n#!!block;n#verificarinput#0" expanded="false" />
                 <element signature="n#!!block;n#convertir_unidades#0" expanded="false" />
                 <element signature="n#!!block;n#reset2#0" expanded="false" />
                 <element signature="n#!!block;n#reset3#0" expanded="false" />
@@ -53,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="17">
               <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
@@ -66,7 +58,7 @@
       <file leaf-file-name="2cargas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2cargas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="530">
               <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,7 +87,7 @@
       <file leaf-file-name="4cargas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4cargas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
+            <state relative-caret-position="442">
               <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -129,7 +121,7 @@
       <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
+            <state relative-caret-position="238">
               <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
@@ -158,10 +150,10 @@
         <option value="$PROJECT_DIR$/alumnos.html" />
         <option value="$PROJECT_DIR$/3cargas.html" />
         <option value="$PROJECT_DIR$/2cargas.html" />
-        <option value="$PROJECT_DIR$/Funciones.js" />
         <option value="$PROJECT_DIR$/4cargas.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/style2.css" />
+        <option value="$PROJECT_DIR$/Funciones.js" />
       </list>
     </option>
   </component>
@@ -217,7 +209,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyecto-duckyweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -332,11 +324,12 @@
       <workItem from="1497735775315" duration="707000" />
       <workItem from="1497736674688" duration="12296000" />
       <workItem from="1497819835235" duration="4253000" />
+      <workItem from="1500693099806" duration="1886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72653000" />
+    <option name="totallyTimeSpent" value="74539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +369,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -745,40 +738,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bup.css" />
-    <entry file="file://$PROJECT_DIR$/Funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#draw_2circ#0" expanded="false" />
-            <element signature="n#!!block;n#draw_3circ#0" expanded="false" />
-            <element signature="n#!!block;n#draw_4circ#0" expanded="false" />
-            <element signature="n#!!block;n#calculos2#0" expanded="false" />
-            <element signature="n#!!block;n#calculos3#0" expanded="false" />
-            <element signature="n#!!block;n#calculos4#0" expanded="false" />
-            <element signature="n#!!block;n#colorcarga#0" expanded="false" />
-            <element signature="n#!!block;n#verificarinput#0" expanded="false" />
-            <element signature="n#!!block;n#convertir_unidades#0" expanded="false" />
-            <element signature="n#!!block;n#reset2#0" expanded="false" />
-            <element signature="n#!!block;n#reset3#0" expanded="false" />
-            <element signature="n#!!block;n#reset4#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2cargas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3cargas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -793,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4cargas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
+        <state relative-caret-position="442">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -821,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
+        <state relative-caret-position="238">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
@@ -829,9 +788,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="17">
           <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2cargas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1592">
+          <caret line="348" column="21" lean-forward="false" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#draw_3circ#0" expanded="false" />
+            <element signature="n#!!block;n#draw_4circ#0" expanded="false" />
+            <element signature="n#!!block;n#calculos2#0" expanded="false" />
+            <element signature="n#!!block;n#calculos3#0" expanded="false" />
+            <element signature="n#!!block;n#calculos4#0" expanded="false" />
+            <element signature="n#!!block;n#colorcarga#0" expanded="false" />
+            <element signature="n#!!block;n#convertir_unidades#0" expanded="false" />
+            <element signature="n#!!block;n#reset2#0" expanded="false" />
+            <element signature="n#!!block;n#reset3#0" expanded="false" />
+            <element signature="n#!!block;n#reset4#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
