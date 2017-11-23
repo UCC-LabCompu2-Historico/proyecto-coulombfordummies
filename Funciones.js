@@ -1,4 +1,43 @@
 /**
+ * Dibuja una flecha con las coordenadas indicadas
+ * @method drawArrow
+ *
+ * @param fromx coordenada en x donde se empieza la flecha
+ * @param fromy coordenada en y donde se empieza la flecha
+ * @param tox coordenada en x donde se termina la flecha
+ * @param toy coordenada en y donde se termina la flecha
+ */
+function drawArrow(fromx, fromy, tox, toy){
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    var headlen = 10;
+
+    var angle = Math.atan2(toy-fromy,tox-fromx);
+
+    ctx.beginPath();
+    ctx.moveTo(fromx, fromy);
+    ctx.lineTo(tox, toy);
+    ctx.strokeStyle = "black";
+    ctx.lineWidth = 3;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(tox, toy);
+    ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/7),toy-headlen*Math.sin(angle-Math.PI/7));
+
+    ctx.lineTo(tox-headlen*Math.cos(angle+Math.PI/7),toy-headlen*Math.sin(angle+Math.PI/7));
+
+    ctx.lineTo(tox, toy);
+    ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/7),toy-headlen*Math.sin(angle-Math.PI/7));
+
+    ctx.strokeStyle = "black";
+    ctx.lineWidth = 3;
+    ctx.stroke();
+    ctx.fillStyle = "black";
+    ctx.fill();
+}
+
+/**
  * Dibuja las cargas para la pagina de 2cargas de acuerdo a los valores ingresados por el usuario
  * @method draw_2circ
  *
@@ -6,6 +45,7 @@
  * NOTA: la funcion toma los valores de las cargas y evalua si son mayores o menores a cero para dibujar las cargas
  * rojas o azules respectivamente.
  */
+var inter;
 function draw_2circ() {
     var r = 60;
     var x = 150;
@@ -68,6 +108,8 @@ function draw_2circ() {
 
     ctx.clearRect(0, 0, c.width, c.height);
 
+    clearInterval(inter);
+
     ctx.lineWidth = 8;
     if (color == 1) {
         ctx.strokeStyle = "blue";
@@ -126,6 +168,37 @@ function draw_2circ() {
     ctx.textAlign = "center";
     ctx.fillText("Q1= " + Number(q1) + " " + t1, x, 225);
     ctx.fillText("Q2= " + Number(q2) + " " + t2, 600 - x, 225);
+
+    var h = 0;
+
+    inter = setInterval(function () {
+        if(color == color2){
+            if((x-r1-7-h) > 15){
+                h++;
+                ctx.beginPath();
+                ctx.rect(0, 290, x-r1-5, 20);
+                ctx.fillStyle = "#d4eaff";
+                ctx.fill();
+                drawArrow(x-r1-15,300,x-r1-15-h,300);
+            }
+            else{
+                clearInterval(inter);
+            }
+        }
+        else{
+            if((x+r1+7+h) < 285){
+                h++;
+                ctx.beginPath();
+                ctx.rect(x+r1+5, 290, 150, 20);
+                ctx.fillStyle = "#d4eaff";
+                ctx.fill();
+                drawArrow(x+r1+15,300,x+r1+15+h,300);
+            }
+            else{
+                clearInterval(inter);
+            }
+        }
+    }, 1000 / 35);
 }
 
 /**
@@ -796,6 +869,7 @@ function convertir_unidades(id) {
 function reset2() {
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
+    clearInterval(inter);
     ctx.clearRect(0, 0, c.width, c.height);
 
     document.getElementById("carga1").value = "";
